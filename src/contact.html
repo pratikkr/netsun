@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="career.css" />
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 25.594528397325558, lng: 85.14537025347886 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h2 class="about-h2">
+      Get In Touch
+    </h2>
+    <span
+      >Gurukul Tower,DefenceColony
+      <br />
+      kankarbagh,Patna-800020
+    </span>
+    <span>home@netsun.xyz</span>
+    <span>+91 9117006457</span>
+
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0M5zUuEUyCRS57eIpdlS53y2AIKh3lX4&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
