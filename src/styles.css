@@ -66,11 +66,10 @@ section {
   width: 100%;
   opacity: 0.5;
 }
-#home {
-  background: url(dp2.png);
-}
+
 .first-section {
-  /* background:  */
+  background: url(dp2.png);
+
   background-size: 100%;
   animation: slide 3s infinite;
   -webkit-animation: slide 3s infinite;
