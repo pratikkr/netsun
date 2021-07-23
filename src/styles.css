@@ -67,7 +67,7 @@ section {
   opacity: 0.5;
 }
 .first-section {
-  background: url(dp2.png);
+  background: rgb(37, 37, 37);
   background-size: 100%;
   animation: slide 3s infinite;
   -webkit-animation: slide 3s infinite;
