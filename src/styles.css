@@ -66,8 +66,11 @@ section {
   width: 100%;
   opacity: 0.5;
 }
+#home {
+  background-color: rgb(37, 37, 37);
+}
 .first-section {
-  background: rgb(37, 37, 37);
+  /* background:  */
   background-size: 100%;
   animation: slide 3s infinite;
   -webkit-animation: slide 3s infinite;
