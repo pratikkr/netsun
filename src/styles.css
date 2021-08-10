@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* width: 0; */
 }
 body {
   width: 100%;
@@ -98,6 +99,7 @@ section {
 }
 .why-us {
   background-color: #b2babb;
+  margin-bottom: 0;
 }
 .about-img {
   width: 80%;
@@ -110,7 +112,7 @@ section {
   font-weight: 800px;
   text-decoration: underline;
   padding: 20px;
-  margin: 15px;
+  /* margin: 15px; */
 }
 
 .contact {
@@ -180,17 +182,37 @@ footer {
   }
 }
 
-.mySlides {
-  display: none;
+.serv {
+  margin-left: 12%;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: bolder;
 }
-
-.slide {
-  padding: 20px;
+.span {
+  /* border: 1px black solid; */
+  width: 12%;
   text-align: center;
-  margin-left: 27%;
-  width: 150%;
-  height: 200px;
+  padding: 20px;
+  margin: 8px;
+  margin-bottom: 20px;
 }
-.services {
-  background-color: #b2babb;
+.span span {
+  display: felx;
+  flex-direction: row;
+  padding: 5px;
+}
+.fas,
+.far,
+.fad,
+.fab {
+  font-size: 35px;
+  color: #ca3400;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  color: white;
 }
